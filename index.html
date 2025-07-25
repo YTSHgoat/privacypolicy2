@@ -2,43 +2,127 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="robots" content="noindex">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tiredeye Bot Privacy Policy</title>
+  <meta charset="UTF-8" />
+  <meta name="robots" content="noindex" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tiredeye Bot | Privacy Policy</title>
+  <link href="https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap" rel="stylesheet">
   <style>
-    body { font-family: sans-serif; margin: 2rem; max-width: 700px; line-height: 1.6; background: #0e0e0e; color: #ddd; }
-    h1, h2 { color: #ff6666; }
-    a { color: #66ccff; }
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 2rem;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0a0a0a;
+      color: #ccc;
+      line-height: 1.8;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    h1, h2 {
+      color: #ff4444;
+      font-family: 'UnifrakturCook', cursive;
+      text-shadow: 0 0 8px rgba(255, 50, 50, 0.8);
+    }
+
+    h1 {
+      font-size: 2.8rem;
+      margin-bottom: 0.5rem;
+    }
+
+    h2 {
+      font-size: 1.8rem;
+      margin-top: 2rem;
+    }
+
+    p, li {
+      font-size: 1.1rem;
+      color: #ddd;
+    }
+
+    ul {
+      padding-left: 1.5rem;
+    }
+
+    strong {
+      color: #ff8888;
+    }
+
+    a {
+      color: #66ccff;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .eye {
+      display: block;
+      text-align: center;
+      font-size: 3rem;
+      margin-top: 2rem;
+      animation: blink 5s infinite;
+      color: #ff6666;
+      text-shadow: 0 0 10px rgba(255, 100, 100, 0.8);
+    }
+
+    @keyframes blink {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.3; transform: scale(0.9); }
+    }
+
+    footer {
+      margin-top: 3rem;
+      font-style: italic;
+      text-align: center;
+      color: #999;
+    }
+
+    hr {
+      border: none;
+      border-top: 1px solid #444;
+      margin: 2rem 0;
+    }
   </style>
 </head>
 <body>
-  <h1>Privacy Policy for Tiredeye Discord Bot</h1>
+  <h1>Privacy Policy</h1>
   <p><strong>Effective Date:</strong> July 25, 2025</p>
+  <hr />
 
   <h2>1. Introduction</h2>
-  <p>The Tiredeye Discord Bot ("Bot") is developed to help manage and moderate Discord servers with features like message scanning and random timeouts. This policy explains what data we collect and how it is used.</p>
+  <p>The Tired Eye Discord Bot ("Bot") is designed for intelligent moderation, automated response, and ambient surveillance within Discord servers. This policy outlines what data is collected, how it is used, and your rights under its domain.</p>
 
   <h2>2. What Data We Collect</h2>
   <ul>
-    <li><strong>User IDs:</strong> Used for moderation actions like timeout, warning, and ban tracking.</li>
-    <li><strongMessage Content:</strong> Temporarily scanned for slurs. Messages are not stored.</li>
-    <li><strong>Reactions:</strong> Used for role assignment based on server rules.</li>
-    <li><strong>Warnings:</strong> Stored in memory (RAM only) and erased when the bot restarts.</li>
+    <li><strong>User IDs:</strong> Used for enforcement actions like timeouts, bans, and warnings.</li>
+    <li><strong>Message Content:</strong> Temporarily scanned for harmful language. <em>Messages are not stored.</em></li>
+    <li><strong>Reactions:</strong> Tracked for role assignment based on predefined server rules.</li>
+    <li><strong>Warnings:</strong> Held in memory (RAM only) and purged upon bot restart or shutdown.</li>
   </ul>
 
   <h2>3. Data Usage</h2>
-  <p>Data is only used to moderate and protect the community. No data is sold, shared, or used for analytics.</p>
+  <p>All data serves one purpose: to protect and moderate. No data is sold, analyzed for marketing, or shared beyond its intended function.</p>
 
   <h2>4. Data Storage</h2>
-  <p>No data is stored long-term. Warnings are only stored temporarily in memory during bot uptime.</p>
+  <p>The Bot stores no long-term user data. Temporary memory is used only during active bot sessions, and all volatile data is erased upon restart.</p>
 
   <h2>5. User Rights</h2>
-  <p>You can contact the server administrator to request information or appeal actions taken by the bot.</p>
+  <p>If you feel unjustly targeted or require transparency, contact your server administrator to request information or appeal a bot decision.</p>
 
   <h2>6. Contact</h2>
-  <p>For questions, contact <strong>@cryoytsh</strong> on Discord.</p>
+  <p>For any concerns, summon <strong>@cryoytsh</strong> via Discord.</p>
 
-  <p>👁️ Tired Eye sees... but respects your privacy.</p>
+  <div class="eye">👁️</div>
+
+  <footer>
+    Tired Eye sees all... but respects your silence.<br />
+    <small>Stay vigilant.</small>
+  </footer>
 </body>
 </html>
